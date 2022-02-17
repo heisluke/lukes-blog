@@ -1,0 +1,75 @@
+@font-face {
+  font-family: TomatoGrotesk-Medium;
+  src: url("/fonts/TomatoGrotesk-Medium.otf");
+}
+@font-face {
+  font-family: TomatoGrotesk-Regular;
+  src: url("/fonts/TomatoGrotesk-Regular.otf");
+}
+@font-face {
+  font-family: TomatoGrotesk-Bold;
+  src: url("/fonts/TomatoGrotesk-Bold.otf");
+}
+@font-face {
+  font-family: TomatoGrotesk-Light;
+  src: url("/fonts/TomatoGrotesk-Light.otf");
+}
+
+* {
+  margin: 0;
+  font-family: TomatoGrotesk-Regular;
+  color: #737373;
+  background-color: #111111;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #737373;
+  ;
+}
+
+.navbar h2 {
+  color: rgb(10, 207, 142);
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 6px;
+  margin-left: 16px;
+}
+
+.navbar a:hover {
+  color: rgb(10, 207, 142);
+  text-decoration: underline;
+}
+
+.content {
+  margin: 40px auto;
+  max-width: 600px;
+  padding: 20px;
+}
+
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0px;
+  border-bottom: 1px solid #7373735b;
+}
+
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px #4949496c;
+}
+.blog-preview h2 {
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: rgb(10, 207, 142);
+}
+
+/* {} +  * & ! @ */
