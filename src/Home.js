@@ -19,11 +19,15 @@ const Home = () => {
         
     ]);
 
+    const handleDelete = (id) => {
+        const newBlogs = blogs.filter(blogr => blogr.id !== id);
+        setBlogs (newBlogs);
+    }
 
     return ( 
         
        <div className="home">
-              <BlogList blogs={blogs} title='All of The Lights' /> <br /> <br />
+              <BlogList blogs={blogs} title='All of The Lights' handleDelete={handleDelete} /> <br /> <br />
               <h2>Songs by Big Wiz</h2>
               <BlogList blogs={blogs.filter((blogr) => blogr.author === 'Wizkid' )} />
         </div> 
